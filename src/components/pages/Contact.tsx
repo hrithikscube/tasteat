@@ -8,10 +8,10 @@ const Contact = () => {
         <React.Fragment>
             <Header />
             <div className='flex flex-col justify-center items-center gap-2 my-10 '>
-                <span className='uppercase border-y border-dimYellow font-joseMedium lg:text-xl text-lg text-darkSlate'>mail us</span>
+                <span className='uppercase lg:mb-10 border-y border-dimYellow font-joseMedium lg:text-xl text-lg text-darkSlate'>mail us</span>
 
-                <div className='lg:w-[744px] m-auto flex flex-col gap-5 mt-10'>
-                    <div className='grid grid-cols-2  gap-5'>
+                <div className='lg:w-[744px] w-full lg:m-auto m-5 flex flex-col gap-5 px-5'>
+                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
                         <TextInput placeholder="Name" />
                         <TextInput placeholder="Email" type="email" />
                         <TextInput placeholder="Subject" />
