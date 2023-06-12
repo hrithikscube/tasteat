@@ -43,7 +43,9 @@ const Header = ({ error }: any) => {
 
       <div className='lg:flex hidden items-center lg:gap-10 justify-between  lg:w-[1378px] m-auto py-4'>
         <Button variant="outlined" label="Call-987 654 321" />
-        <img src={tasteat} alt="logo" />
+        <Link to="/sdas">
+          <img src={tasteat} alt="logo" className=']' />
+        </Link>
         <div className='flex items-center gap-5'>
           {/* <img src={cart} alt="cart" /> */}
           <Button variant="contained" label="Reservation" />
@@ -51,7 +53,9 @@ const Header = ({ error }: any) => {
       </div>
 
       <div className='lg:hidden flex justify-center items-center'>
-        <img src={tasteat} alt="logo" className='scale-[0.9]' />
+        <Link to="/sdas">
+          <img src={tasteat} alt="logo" className='scale-[0.9]' />
+        </Link>
       </div>
 
 
@@ -130,7 +134,7 @@ const Header = ({ error }: any) => {
           )
         }
 
-{
+        {
           pathname === '/faq' && (
             <SectionTitle text="FAQ" />
           )

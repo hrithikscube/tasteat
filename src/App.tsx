@@ -1,4 +1,4 @@
-import React from 'react'
+// import React, { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/pages/Home'
 import NotFound from './components/pages/NotFound'
@@ -6,6 +6,13 @@ import ChangeLog from './components/pages/ChangeLog'
 import Faq from './components/pages/Faq'
 
 const App = () => {
+
+  // const navigate = useNavigate()
+
+  // useEffect(() => {
+  //   navigate('/faq')
+  // }, [])
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
