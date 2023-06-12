@@ -130,6 +130,12 @@ const Header = ({ error }: any) => {
           )
         }
 
+{
+          pathname === '/faq' && (
+            <SectionTitle text="FAQ" />
+          )
+        }
+
 
       </div>
 
