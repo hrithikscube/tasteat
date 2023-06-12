@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <div className='lg:mt-20 mt-10 bg-darkSlate w-full '>
             {/* footer */}
-            <div className=' flex lg:flex-row justify-between items-end lg:w-[1378px] m-auto lg:py-10 py-5'>
-                <div className='flex flex-col lg:gap-[120px] gap-5'>
+            <div className=' flex lg:flex-row flex-col lg:justify-between justify-start lg:items-end lg:w-[1378px] m-auto lg:py-10 py-5'>
+                <div className='flex flex-col justify-start items-start lg:gap-[120px] gap-5 lg:p-0 p-5'>
 
                     <div>
                         <p className='lg:text-xl text-lg font-joseRegular text-white underline'>Instagram Feed</p>
@@ -26,19 +26,19 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-5 justify-center items-center'>
+                <div className='flex flex-col gap-5 justify-center items-center lg:p-0 p-5'>
                     <img src={footerLogo} alt="" className='w-[300px] h-[196px] m-auto' />
                     <div className='lg:w-[300px] text-center'>
                         <p className='font-joseRegular lg:text-xl text-lg text-white'> Join our mailing list for updates,
                             Get news & offers events.</p>
                     </div>
-                    <div className='flex items-center lg:w-[509px]'>
+                    <div className='flex items-center lg:w-[509px] lg:scale-[0.9] scale-[0.7] '>
                         <input className='placeholder:font-joseRegular outline-none border border-white p-[17px] w-full bg-darkSlate text-white text-xl placeholder:text-white' placeholder='Email' />
                         <button className='p-[17.8px] px-10 font-joseMedium text-xl bg-white'>Subscribe</button>
                     </div>
                 </div>
 
-                <div className='flex flex-col lg:gap-[120px] gap-5 justify-end items-end'>
+                <div className='flex flex-col lg:gap-[120px] gap-5 justify-end items-end lg:p-0 p-5'>
                     <div className='flex items-center gap-5'>
                         {
                             socials.map((item: any) => (
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             {/* copyright */}
             <div className='p-5  border-y border-[#fcfcfc]'>
-                <div className='flex items-center justify-between lg:w-[1378px] m-auto '>
+                <div className='flex lg:flex-row flex-col items-center lg:justify-between justify-center lg:w-[1378px] m-auto '>
                     <div>
                         <p className='text-white font-joseRegular text-lg'>
                             © Copyright - Restaurantate 2023
