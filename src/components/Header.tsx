@@ -120,7 +120,7 @@ const Header = ({ error }: any) => {
 
         {
           pathname === '/contact-us' && (
-            <SectionTitle text="Contact" />
+            <SectionTitle text="Contact Us" />
           )
         }
         {

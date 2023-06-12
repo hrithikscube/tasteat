@@ -5,12 +5,12 @@ const Button = ({ label, onClick, variant }: any) => {
         <React.Fragment>
             {
                 variant === 'contained' && (
-                    <button onClick={onClick} className='bg-dimYellow h-[68px] w-[232px] text-xl font-joseRegular text-primary'>{label}</button>
+                    <button onClick={onClick} className='bg-dimYellow lg:h-[68px] h-[57px] w-[232px] lg:text-xl text-lg font-joseRegular text-primary'>{label}</button>
                 )
             }
             {
                 variant === 'outlined' && (
-                    <button onClick={onClick} className='bg-none border-2 border-dimYellow h-[68px] w-[232px] text-xl font-joseRegular text-white'>{label}</button>
+                    <button onClick={onClick} className='bg-none border-2 border-dimYellow lg:h-[68px] h-[57px] w-[232px] lg:text-xl text-lg font-joseRegular text-white'>{label}</button>
                 )
             }
         </React.Fragment>
