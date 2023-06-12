@@ -23,6 +23,11 @@ module.exports = {
         'cormorantMedium': ['CormorantGaramond Medium'],
         'cormorantSemiBold': ['CormorantGaramond SemiBold'],
         'cormorantBold': ['CormorantGaramond Bold'],
+
+        'infantRegular': ['CormorantInfant Regular'],
+        'infantMedium': ['CormorantInfant Medium'],
+        'infantSemiBold': ['CormorantInfant SemiBold'],
+        'infantBold': ['CormorantInfant Bold'],
       }
     },
   },

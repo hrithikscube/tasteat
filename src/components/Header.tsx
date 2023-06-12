@@ -20,8 +20,8 @@ const HeroSection = () => {
         <Button variant="outlined" label="View Menu" />
       </div>
 
-      <div className='lg:absolute lg:right-0 lg:top-[-90px]'>
-        <img src={hero} alt="heroImage" className='lg:scale-[0.7]' />
+      <div className='lg:absolute lg:right-0 lg:top-[43px]'>
+        <img src={hero} alt="heroImage" className='lg:w-[585px] lg:h-[611px]' />
       </div>
 
     </div>
@@ -30,11 +30,11 @@ const HeroSection = () => {
 
 const SectionTitle = ({ text }: any) => {
   return (
-    <span className='lg:text-6xl md:text-3xl text-2xl font-cormorantBold text-white border-y border-dimYellow'>{text}</span>
+    <span className='lg:text-6xl md:text-3xl text-2xl font-infantBold text-white border-y border-dimYellow'>{text}</span>
   )
 }
 
-const Header = () => {
+const Header = ({ error }: any) => {
 
   const { pathname } = useLocation()
 
@@ -119,7 +119,16 @@ const Header = () => {
             <SectionTitle text="Contact" />
           )
         }
-
+        {
+          pathname === '/changelog' && (
+            <SectionTitle text="Changelog" />
+          )
+        }
+        {
+          error && (
+            <SectionTitle text="404" />
+          )
+        }
 
 
       </div>
