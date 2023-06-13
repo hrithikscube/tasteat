@@ -28,6 +28,8 @@ module.exports = {
         'infantMedium': ['CormorantInfant Medium'],
         'infantSemiBold': ['CormorantInfant SemiBold'],
         'infantBold': ['CormorantInfant Bold'],
+        'infantItalic': ['CormorantInfant Italic'],
+
       }
     },
   },

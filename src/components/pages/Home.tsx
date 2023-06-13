@@ -59,10 +59,12 @@ const Home = () => {
         <div className='bg-darkSlate w-full mt-10'>
           <div className='lg:p-10 lg:pl-20 p-5'>
 
-            <div className='flex flex-col gap-2'>
+            <div className=''>
               <span className='uppercase border-y border-dimYellow font-joseMedium text-lg text-white py-1'>testimonial</span>
-              <p className='text-white font-infantBold lg:text-4xl text-3xl '>What our clients say</p>
-              <p className='text-white font-joseRegular lg:text-lg text-base '>We love to hear from customers, so please leave a comment or say hello in an email.</p>
+              <div className='flex flex-col gap-2 mt-2'>
+                <p className='text-white font-infantBold lg:text-4xl text-3xl '>What our clients say</p>
+                <p className='text-white font-joseRegular lg:text-lg text-base '>We love to hear from customers, so please leave a comment or say hello in an email.</p>
+              </div>
             </div>
 
           </div>
