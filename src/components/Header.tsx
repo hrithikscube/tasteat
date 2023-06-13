@@ -139,6 +139,11 @@ const Header = ({ error }: any) => {
             <SectionTitle text="FAQ" />
           )
         }
+        {
+          pathname === '/protected' && (
+            <SectionTitle text="Password Protected" />
+          )
+        }
 
 
       </div>

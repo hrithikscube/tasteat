@@ -5,6 +5,7 @@ import NotFound from './components/pages/NotFound'
 import ChangeLog from './components/pages/ChangeLog'
 import Faq from './components/pages/Faq'
 import Contact from './components/pages/Contact'
+import Proctected from './components/pages/Protected'
 
 const App = () => {
 
@@ -32,6 +33,7 @@ const App = () => {
       <Route path="/recipe" element={<Home />} />
       <Route path="/licenses" element={<Home />} />
       <Route path="/changelog" element={<ChangeLog />} />
+      <Route path="/protected" element={<Proctected />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   )
