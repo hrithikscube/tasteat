@@ -12,6 +12,12 @@ import instagramIcon from '../assets/contact/socials/instagramIcon.svg'
 import pinterestIcon from '../assets/contact/socials/pinterestIcon.svg'
 import twitterIcon from '../assets/contact/socials/twitterIcon.svg'
 
+import pinIcon from '../assets/icons/pinIcon.svg'
+import hours from '../assets/icons/hours.svg'
+import reserve from '../assets/icons/reserve.svg'
+
+
+
 export const menuItems = [
     {
         id: 1,
@@ -126,4 +132,23 @@ export const socialIcons = [
         icon: pinterestIcon,
         link: '#'
     },
+]
+
+export const keypoints = [
+    {
+        icon: pinIcon,
+        title: 'Locate Us',
+        subText: 'Riverside 25, San Francisco, California'
+    },
+    {
+        icon: hours,
+        title: 'Open Hours',
+        subText: 'Mon To Fri 9:00 AM - 9:00 PM'
+    },
+    {
+        icon: reserve,
+        title: 'Reservation',
+        subText: 'hirestaurantate@gmail.com'
+    },
+
 ]

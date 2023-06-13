@@ -102,3 +102,8 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+/* *{
+    @apply border border-red-600
+} */
