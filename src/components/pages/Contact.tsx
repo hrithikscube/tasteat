@@ -64,7 +64,7 @@ const Contact = () => {
                     <div className='flex lg:flex-row flex-col lg:gap-10 gap-5 items-center justify-center mt-10'>
 
                         <div className='flex lg:flex-row flex-col items-center '>
-                            <div className='lg:w-[318px] lg:p-10 p-5 border border-[#d9d9d9] lg:h-[422px] lg:m-auto m-4 flex flex-col gap-4'>
+                            <div className='lg:w-[318px] w-full lg:p-10 p-5 border border-[#d9d9d9] lg:h-[422px] lg:m-auto m-4 flex flex-col gap-4'>
                                 <p className='lg:text-3xl text-xl font-infantBold text-darkSlate'>Los Angeles, CA</p>
                                 <p className='lg:text-xl text-base font-joseRegular text-[#4A4A4A]'>Riverside 25, San Francisco
                                     California
@@ -83,7 +83,7 @@ const Contact = () => {
                         </div>
 
                         <div className='flex lg:flex-row flex-col items-center '>
-                            <div className='lg:w-[318px] lg:p-10 p-5 border border-[#d9d9d9] lg:h-[422px] lg:m-auto m-4 flex flex-col gap-4'>
+                            <div className='lg:w-[318px] w-full lg:p-10 p-5 border border-[#d9d9d9] lg:h-[422px] lg:m-auto m-4 flex flex-col gap-4'>
                                 <p className='lg:text-3xl text-xl font-infantBold text-darkSlate'>San Francisco, CA</p>
                                 <p className='lg:text-xl text-base font-joseRegular text-[#4A4A4A]'>Riverside 25, San Francisco
                                     California
