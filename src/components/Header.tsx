@@ -44,15 +44,15 @@ const Header = ({ error }: any) => {
     <React.Fragment>
 
       {/* Menu Icon */}
-      <div onClick={() => setToggle(!toggle)} className='lg:hidden fixed top-[20px] right-[20px] cursor-pointer z-[99]'>
-        <div className='bg-[#323841] shadow-lg w-[60px] h-[60px] rounded-full flex justify-center items-center'>
+      <div onClick={() => setToggle(!toggle)} className='lg:hidden fixed top-[20px] left-[20px] cursor-pointer z-[99]'>
+        <div className='bg-[#323841] shadow-2xl w-[60px] h-[60px] rounded-full flex justify-center items-center'>
           <img src={menu} alt="" className='w-[32px] h-[32px]' />
         </div>
       </div>
 
       {
         toggle && (
-          <div className='bg-[#323841] w-[250px] p-5 fixed right-[20px] top-[100px] z-[99]'>
+          <div className='bg-[#323841] w-[290px] p-5 fixed left-[20px] top-[100px] z-[99]'>
             <div className='flex flex-col justify-center items-center gap-5 p-5 w-full border border-white '>
               {menuItems?.map((item: any) => (
                 <Link to={item?.link} onClick={() => setToggle(false)}>

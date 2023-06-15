@@ -100,7 +100,7 @@ const Home = () => {
               </div>
             </div>
 
-            <Marquee pauseOnHover>
+            <Marquee>
               <FeedbackCard image={guy} />
               <FeedbackCard image={nat} />
               <FeedbackCard image={jack} />
