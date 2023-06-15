@@ -6,6 +6,39 @@ import story from '../../assets/images/story.png'
 import signature from '../../assets/vectors/signature.svg'
 import lights from '../../assets/images/lights.png'
 
+import guy from '../../assets/avatars/guy.png'
+import nat from '../../assets/avatars/nat.png'
+import jack from '../../assets/avatars/jack.png'
+
+import Marquee from "react-fast-marquee";
+
+
+const FeedbackCard = ({ image }: any) => {
+  return (
+    <div className='bg-[#343942] p-10 lg:w-[527px] w-[327px] lg:h-[386px] flex flex-col m-5'>
+
+      <div className='flex items-center gap-5 '>
+        <img src={image} alt="" />
+
+        <div>
+          <p className='lg:text-3xl text-2xl font-infantBold text-white'>Daniyal Sppra</p>
+          <p className='lg:text-xl text-lg font-joseRegular text-dimYellow'>Newyork</p>
+        </div>
+
+      </div>
+
+      <div className='border-b border-white my-5   ' />
+
+      <div className=''>
+        <p className='font-infantItalic text-white lg:text-3xl text-xl'>
+          "It is professional, considers everyone's time, can think about the  There are many variations of passages whole probls small niche, friendly.
+        </p>
+      </div>
+    </div>
+  )
+}
+
+
 const Home = () => {
   return (
     <React.Fragment>
@@ -66,6 +99,12 @@ const Home = () => {
                 <p className='text-white font-joseRegular lg:text-lg text-base '>We love to hear from customers, so please leave a comment or say hello in an email.</p>
               </div>
             </div>
+
+            <Marquee pauseOnHover>
+              <FeedbackCard image={guy} />
+              <FeedbackCard image={nat} />
+              <FeedbackCard image={jack} />
+            </Marquee>
 
           </div>
           <img src={lights} alt="" />
