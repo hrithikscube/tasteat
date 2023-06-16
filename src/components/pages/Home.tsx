@@ -12,6 +12,17 @@ import jack from '../../assets/avatars/jack.png'
 
 import Marquee from "react-fast-marquee";
 
+import burger from '../../assets/images/burger.png'
+import pizza from '../../assets/images/pizza.png'
+import price from '../../assets/vectors/price.svg'
+import price2 from '../../assets/vectors/price2.svg'
+import offer from '../../assets/vectors/offer.svg'
+import hexagon from '../../assets/vectors/hexagon.svg'
+
+
+
+
+
 
 const FeedbackCard = ({ image }: any) => {
   return (
@@ -109,6 +120,48 @@ const Home = () => {
           </div>
           <img src={lights} alt="" />
         </div>
+
+        <div className="lg:mt-40 mt-20 flex flex-col justify-center items-center">
+          <span className='uppercase border-y border-dimYellow font-joseMedium text-lg text-darkSlate '>offer</span>
+          <p className='font-infantBold lg:text-4xl text-3xl text-darkSlate my-2'>Our special  Offer dishes</p>
+          <p className='lg:w-[702px] lg:text-xl text-base font-joseRegular text-[#555555] text-center'>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making.</p>
+              <br/>
+          <div className='flex lg:flex-row flex-col justify-center items-center lg:gap-10 gap-5 lg:m-auto m-5 '>
+            {/* burger card */}
+            <div className='bg-[#C6EAF2] flex lg:flex-row flex-col items-center justify-center p-10 relative'>
+
+              <div className='lg:w-[259px]'>
+                <img src={price} alt="price_value" className='w-[100px] h-[100px] mb-2' />
+                <span className='uppercase border-y border-darkSlate py-1 font-joseMedium text-base text-darkSlate'>50% Offer Going</span>
+                <p className='font-infantBold text-darkSlate lg:text-3xl text-2xl mt-2'>Chicken Burger</p>
+                <p className='font-joseRegular text-[#555555] lg:text-lg text-base mt-1'>Lorem Ipsum is that it has a more-or-less normal</p>
+              </div>
+              <img src={burger} alt="burger" className='w-[332px] h-[242px] z-[20]' />
+
+              <div className='absolute top-0 lg:block hidden'>
+                <img src={offer} alt="shape" />
+              </div>
+
+            </div>
+            {/* pizza card */}
+            <div className='bg-[#D7D7D7] flex lg:flex-row flex-col items-center justify-center p-10 relative'>
+
+              <div className='lg:w-[259px]'>
+                <img src={price2} alt="price_value" className='w-[100px] h-[100px] mb-2' />
+                <span className='uppercase border-y border-darkSlate py-1 font-joseMedium text-base text-darkSlate'>50% Offer Going</span>
+                <p className='font-infantBold text-darkSlate lg:text-3xl text-2xl mt-2'>Chicken Pizza</p>
+                <p className='font-joseRegular text-[#555555] lg:text-lg text-base mt-1'>Lorem Ipsum is that it has a more-or-less normal</p>
+              </div>
+              <img src={pizza} alt="pizza" className='w-[332px] h-[242px] object-contain scale-[1.3] z-[20]' />
+              <div className='absolute bottom-0 z-[10] right-[20px]'>
+                <img src={hexagon} alt="" />
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
 
       </div>
       <Footer />
