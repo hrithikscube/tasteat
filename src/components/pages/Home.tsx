@@ -172,7 +172,7 @@ const Home = () => {
           <span className='uppercase border-y border-dimYellow font-joseMedium text-lg text-darkSlate '>menu</span>
           <p className='font-infantBold lg:text-4xl text-3xl text-darkSlate my-2'>Popular Dishes</p>
           <p className='lg:w-[702px] lg:text-xl text-base font-joseRegular text-[#555555] text-center'>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making.</p>
-
+              <br/>
           <div className='mt-10 grid lg:grid-cols-4 grid-cols-1 lg:gap-7 gap-5 lg:m-auto m-5'>
 
             <div className='lg:w-[326px] flex flex-col gap-2'>
