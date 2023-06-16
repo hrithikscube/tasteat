@@ -19,25 +19,25 @@ const Footer = () => {
                             <img src={reservation} alt="reservation" />
                         </div>
 
-                        <div className='bg-darkSlate absolute lg:w-[900px] p-10 left-[20%] top-[25%]'>
+                        <div className='bg-darkSlate lg:absolute lg:w-[900px] p-10 left-[20%] top-[25%]'>
                             <div className='flex flex-col justify-center items-center lg:w-[744px] lg:m-auto'>
                                 <span className='uppercase border-y border-dimYellow font-joseMedium lg:text-xl text-lg text-white'>reservation</span>
                                 <p className='lg:text-3xl text-2xl font-infantBold text-white'>Book your table now</p>
 
-                                <div className='grid grid-cols-2 lg:gap-5 mt-5 w-full'>
-                                    <TextInput placeholder="Name" noBg/>
-                                    <TextInput placeholder="Email" noBg/>
+                                <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-5 mt-5 w-full gap-5'>
+                                    <TextInput placeholder="Name" noBg textWhite />
+                                    <TextInput placeholder="Email" noBg textWhite/>
                                 </div>
 
-                                <div className='grid grid-cols-3 lg:gap-5 mt-5'>
-                                    <TextInput placeholder="Person" noBg/>
-                                    <TextInput placeholder="Timing" noBg/>
-                                    <TextInput placeholder="Date" noBg/>
+                                <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 lg:gap-5 mt-5 w-full'>
+                                    <TextInput placeholder="Person" noBg textWhite/>
+                                    <TextInput placeholder="Timing" noBg textWhite/>
+                                    <TextInput placeholder="Date" noBg textWhite/>
                                 </div>
 
-                                <div className='mt-5'>
+                                <div className='mt-5 w-full'>
                                     <button
-                                        className={`bg-white text-darkSlate lg:h-[68px] h-[57px] w-[232px] lg:text-xl text-lg font-joseRegular`}>Book a Table</button>
+                                        className={`bg-white text-darkSlate lg:h-[68px] h-[57px] lg:w-[232px] w-full lg:text-xl text-lg font-joseRegular`}>Book a Table</button>
                                 </div>
                             </div>
                         </div>
