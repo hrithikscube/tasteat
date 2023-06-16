@@ -11,7 +11,7 @@ module.exports = {
         'grayShade': '#555555',
         'lightSlate': '#343942',
         'dimWhite': '#FFF8F5',
-        'primary': '#292E36'
+        'primary': '#292E36',
       },
 
       fontFamily: {
