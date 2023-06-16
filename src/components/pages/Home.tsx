@@ -128,7 +128,7 @@ const Home = () => {
               <br/>
           <div className='flex lg:flex-row flex-col justify-center items-center lg:gap-10 gap-5 lg:m-auto m-5 '>
             {/* burger card */}
-            <div className='bg-[#C6EAF2] flex lg:flex-row flex-col items-center justify-center p-10 relative'>
+            <div className='bg-[#C6EAF2] flex lg:flex-row flex-col items-center justify-center p-10 relative lg:gap-0 gap-5'>
 
               <div className='lg:w-[259px]'>
                 <img src={price} alt="price_value" className='w-[100px] h-[100px] mb-2' />
@@ -144,7 +144,7 @@ const Home = () => {
 
             </div>
             {/* pizza card */}
-            <div className='bg-[#D7D7D7] flex lg:flex-row flex-col items-center justify-center p-10 relative'>
+            <div className='bg-[#D7D7D7] flex lg:flex-row flex-col items-center justify-center p-10 relative lg:gap-0 gap-5'>
 
               <div className='lg:w-[259px]'>
                 <img src={price2} alt="price_value" className='w-[100px] h-[100px] mb-2' />
