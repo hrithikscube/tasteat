@@ -19,6 +19,12 @@ import price2 from '../../assets/vectors/price2.svg'
 import offer from '../../assets/vectors/offer.svg'
 import hexagon from '../../assets/vectors/hexagon.svg'
 
+import meatballs from '../../assets/images/meatballs.png'
+import hotdog from '../../assets/images/hotdog.png'
+import lime from '../../assets/images/lime.png'
+import cheesyBurger from '../../assets/images/cheesy-burger.png'
+
+
 
 
 
@@ -125,7 +131,7 @@ const Home = () => {
           <span className='uppercase border-y border-dimYellow font-joseMedium text-lg text-darkSlate '>offer</span>
           <p className='font-infantBold lg:text-4xl text-3xl text-darkSlate my-2'>Our special  Offer dishes</p>
           <p className='lg:w-[702px] lg:text-xl text-base font-joseRegular text-[#555555] text-center'>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making.</p>
-              <br/>
+          <br />
           <div className='flex lg:flex-row flex-col justify-center items-center lg:gap-10 gap-5 lg:m-auto m-5 '>
             {/* burger card */}
             <div className='bg-[#C6EAF2] flex lg:flex-row flex-col items-center justify-center p-10 relative lg:gap-0 gap-5'>
@@ -158,6 +164,62 @@ const Home = () => {
               </div>
 
             </div>
+          </div>
+
+        </div>
+
+        <div className='lg:mt-40 mt-10 flex flex-col justify-center items-center'>
+          <span className='uppercase border-y border-dimYellow font-joseMedium text-lg text-darkSlate '>menu</span>
+          <p className='font-infantBold lg:text-4xl text-3xl text-darkSlate my-2'>Popular Dishes</p>
+          <p className='lg:w-[702px] lg:text-xl text-base font-joseRegular text-[#555555] text-center'>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making.</p>
+
+          <div className='mt-10 grid lg:grid-cols-4 grid-cols-1 lg:gap-7 gap-5 lg:m-auto m-5'>
+
+            <div className='lg:w-[326px] flex flex-col gap-2'>
+              <img src={meatballs} alt="meatballs" />
+              <div className='flex justify-between'>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>Chicken Meatballs</p>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>$15</p>
+              </div>
+              <p className='font-joseRegular text-[#555555] lg:text-lg text-base '>Lorem Ipsum is that it has a
+                more-or-less normal</p>
+            </div>
+
+            <div className='lg:w-[326px] flex flex-col gap-2'>
+              <img src={hotdog} alt="hotgo" />
+              <div className='flex justify-between'>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>Chicken Meatballs</p>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>$15</p>
+              </div>
+              <p className='font-joseRegular text-[#555555] lg:text-lg text-base '>Lorem Ipsum is that it has a
+                more-or-less normal</p>
+            </div>
+
+            <div className='lg:w-[326px] flex flex-col gap-2'>
+              <img src={lime} alt="lime" />
+              <div className='flex justify-between'>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>Chicken Meatballs</p>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>$15</p>
+              </div>
+              <p className='font-joseRegular text-[#555555] lg:text-lg text-base '>Lorem Ipsum is that it has a
+                more-or-less normal</p>
+            </div>
+
+            <div className='lg:w-[326px] flex flex-col gap-2'>
+              <img src={cheesyBurger} alt="burger" />
+              <div className='flex justify-between'>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>Chicken Meatballs</p>
+                <p className='font-infantBold lg:text-3xl text-2xl text-darkSlate'>$15</p>
+              </div>
+              <p className='font-joseRegular text-[#555555] lg:text-lg text-base '>Lorem Ipsum is that it has a
+                more-or-less normal</p>
+            </div>
+
+          </div>
+
+          <div className='mt-10'>
+            <button
+              className={`bg-none border-2 border-dimYellow lg:h-[68px] h-[57px] w-[232px] lg:text-xl text-lg font-joseRegular text-darkSlate`}>See all dishes</button>
           </div>
 
         </div>
