@@ -35,7 +35,7 @@ const Footer = () => {
                                     <TextInput placeholder="Date" noBg textWhite/>
                                 </div>
 
-                                <div className='mt-5 w-full'>
+                                <div className='mt-5 w-full flex justify-center items-center'>
                                     <button
                                         className={`bg-white text-darkSlate lg:h-[68px] h-[57px] lg:w-[232px] w-full lg:text-xl text-lg font-joseRegular`}>Book a Table</button>
                                 </div>
