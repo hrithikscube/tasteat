@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TextInput = ({ placeholder, onChange, type, value, name, height }: any) => {
+const TextInput = ({ placeholder, onChange, type, value, name, height, noBg }: any) => {
     return (
         <input
             name={name}
@@ -8,7 +8,7 @@ const TextInput = ({ placeholder, onChange, type, value, name, height }: any) =>
             type={type}
             onChange={onChange}
             placeholder={placeholder}
-            className={`outline-none border border-[#C4C4C4] ${height ? height : 'h-[68px]'} px-5 w-full lg:text-xl text-lg font-joseRegular placeholder:lg:text-xl placeholder:text-lg`}
+            className={`outline-none border border-[#C4C4C4] ${height ? height : 'h-[68px]'} px-5 w-full lg:text-xl text-lg font-joseRegular placeholder:lg:text-xl placeholder:text-lg ${noBg ? 'bg-transparent' : ''}`}
         />
     )
 }
