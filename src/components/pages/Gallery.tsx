@@ -8,6 +8,12 @@ import { instaPics } from "../../utils/helpers";
 import Footer from "../Footer";
 import Header from "../Header";
 
+import reserve from "../../assets/images/reserve.png";
+
+import salami from "../../assets/images/salami.png";
+import chefHands from "../../assets/images/chefHands.png";
+import Button from "../Button";
+
 const pastas = [
   {
     name: "Italian Pasta",
@@ -64,6 +70,48 @@ const Gallery = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="lg:mt-20 mt-10 w-full">
+        <img src={reserve} alt="" className="h-[460px] object-cover" />
+      </div>
+
+      <div className="lg:mt-20 mt-10 flex flex-col justify-center items-center lg:gap-0 gap-5">
+        
+        <div className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center">
+          <div className="lg:w-[538px] m-auto flex flex-col items-start lg:p-10 p-5 gap-2">
+            <span className="border-y border-dimYellow uppercase font-joseRegular">feature</span>
+            <p className="lg:text-5xl text-3xl font-infantBold text-darkSlate">
+              Always fresh ingredients
+            </p>
+            <p className="text-base font-joseRegular text-[#555]">
+              The people, food and the prime locations make Rodich the perfect
+              place good friends & family to come together and have great time.
+            </p>
+            <Button label="View Menu" variant="contained" />
+          </div>
+          <img src={chefHands} alt="" className="lg:w-[538px]" />
+        </div>
+
+        <div className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center">
+          <img src={salami} alt="" className="lg:w-[538px] lg:block hidden" />
+
+          <div className="lg:w-[538px] m-auto flex flex-col items-start lg:p-10 p-5 gap-2">
+            <span className="border-y border-dimYellow uppercase font-joseRegular">feature</span>
+            <p className="lg:text-5xl text-3xl font-infantBold text-darkSlate">
+              Always fresh ingredients
+            </p>
+            <p className="text-base font-joseRegular text-[#555]">
+              The people, food and the prime locations make Rodich the perfect
+              place good friends & family to come together and have great time.
+            </p>
+            <Button label="View Menu" variant="contained" />
+          </div>
+
+          <img src={salami} alt="" className="lg:w-[538px] lg:hidden block" />
+
+        </div>
+
       </div>
 
       <div className="w-full flex flex-col justify-center items-center lg:mt-20 mt-10 overlfow-hidden">
