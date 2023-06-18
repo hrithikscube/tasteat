@@ -6,6 +6,7 @@ import ChangeLog from './components/pages/ChangeLog'
 import Faq from './components/pages/Faq'
 import Contact from './components/pages/Contact'
 import Proctected from './components/pages/Protected'
+import About from './components/pages/About'
 
 const App = () => {
 
@@ -18,7 +19,7 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<Home />} />
+      <Route path="/about-us" element={<About />} />
       <Route path="/our-menu" element={<Home />} />
       <Route path="/meet-the-chef" element={<Home />} />
       <Route path="/the-chef-single" element={<Home />} />
