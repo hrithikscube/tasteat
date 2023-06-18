@@ -7,6 +7,7 @@ import Faq from './components/pages/Faq'
 import Contact from './components/pages/Contact'
 import Proctected from './components/pages/Protected'
 import About from './components/pages/About'
+import Menu from './components/pages/Menu'
 
 const App = () => {
 
@@ -20,7 +21,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about-us" element={<About />} />
-      <Route path="/our-menu" element={<Home />} />
+      <Route path="/our-menu" element={<Menu />} />
       <Route path="/meet-the-chef" element={<Home />} />
       <Route path="/the-chef-single" element={<Home />} />
       <Route path="/gallery" element={<Home />} />
