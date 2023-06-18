@@ -2,18 +2,18 @@ import React from 'react'
 import footerLogo from '../assets/images/footerLogo.svg'
 import { socials } from '../utils/helpers'
 import reservation from '../assets/images/reservation.png'
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 import TextInput from './TextInput'
 
 const Footer = () => {
 
-    const { pathname } = useLocation()
+    // const { pathname } = useLocation()
 
     return (
         <React.Fragment>
 
             {
-                pathname === "/" && (
+                true && (
                     <div className='relative'>
                         <div className=' w-full lg:mt-20 mt-10'>
                             <img src={reservation} alt="reservation" />
@@ -45,7 +45,7 @@ const Footer = () => {
                 )
             }
 
-            <div className={`${pathname === '/' ? '' : 'lg:mt-20 mt-10'} bg-darkSlate w-full`}>
+            <div className={`true ? '' : 'lg:mt-20 mt-10'} bg-darkSlate w-full`}>
                 {/* footer */}
                 <div className=' flex lg:flex-row flex-col lg:justify-between justify-start lg:items-end lg:w-[1378px] m-auto lg:py-10 py-5'>
                     <div className='flex flex-col justify-start items-start lg:gap-[120px] gap-5 lg:p-0 p-5'>
