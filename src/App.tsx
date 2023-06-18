@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact'
 import Proctected from './components/pages/Protected'
 import About from './components/pages/About'
 import Menu from './components/pages/Menu'
+import Gallery from './components/pages/Gallery'
 
 const App = () => {
 
@@ -24,7 +25,7 @@ const App = () => {
       <Route path="/our-menu" element={<Menu />} />
       <Route path="/meet-the-chef" element={<Home />} />
       <Route path="/the-chef-single" element={<Home />} />
-      <Route path="/gallery" element={<Home />} />
+      <Route path="/gallery" element={<Gallery />} />
       <Route path="/gallery/view" element={<Home />} />
       <Route path="/reserve" element={<Home />} />
       <Route path="/shop" element={<Home />} />

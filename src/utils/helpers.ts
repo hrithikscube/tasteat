@@ -16,7 +16,15 @@ import pinIcon from '../assets/icons/pinIcon.svg'
 import hours from '../assets/icons/hours.svg'
 import reserve from '../assets/icons/reserve.svg'
 
+import one from '../assets/images/instagram/01.png'
+import two from '../assets/images/instagram/02.png'
+import three from '../assets/images/instagram/03.png'
+import four from '../assets/images/instagram/04.png'
+import five from '../assets/images/instagram/05.png'
+import six from '../assets/images/instagram/06.png'
 
+
+export const instaPics = [one,two,three,four,five,six]
 
 export const menuItems = [
     {
