@@ -9,6 +9,7 @@ import Proctected from './components/pages/Protected'
 import About from './components/pages/About'
 import Menu from './components/pages/Menu'
 import Gallery from './components/pages/Gallery'
+import Booking from './components/pages/Booking'
 
 const App = () => {
 
@@ -27,7 +28,7 @@ const App = () => {
       <Route path="/the-chef-single" element={<Home />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/gallery/view" element={<Home />} />
-      <Route path="/reserve" element={<Home />} />
+      <Route path="/reserve" element={<Booking />} />
       <Route path="/shop" element={<Home />} />
       <Route path="/blog" element={<Home />} />
       <Route path="/blog/view" element={<Home />} />
