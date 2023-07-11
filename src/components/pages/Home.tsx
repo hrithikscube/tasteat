@@ -10,7 +10,7 @@ import guy from '../../assets/avatars/guy.png'
 import nat from '../../assets/avatars/nat.png'
 import jack from '../../assets/avatars/jack.png'
 
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 import burger from '../../assets/images/burger.png'
 import pizza from '../../assets/images/pizza.png'
@@ -112,7 +112,7 @@ const Home = () => {
 
       </div>
 
-      <div className='bg-darkSlate w-full '>
+      <div className='bg-darkSlate w-full lg:hidden block'>
         <div className='lg:p-10 lg:pl-20 p-5'>
 
           <div className=''>
@@ -123,11 +123,11 @@ const Home = () => {
             </div>
           </div>
 
-          <Marquee>
+          {/* <Marquee> */}
             <FeedbackCard image={guy} />
             <FeedbackCard image={nat} />
             <FeedbackCard image={jack} />
-          </Marquee>
+          {/* </Marquee> */}
 
         </div>
         <img src={lights} alt="" />
