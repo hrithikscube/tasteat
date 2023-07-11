@@ -65,11 +65,11 @@ const Header = ({ error }: any) => {
       }
 
 
-      <div className='bg-darkSlate w-full lg:py-10 py-5'>
+      <div className='bg-[#1F242C] w-full lg:py-10 py-5'>
 
         <div className='lg:flex hidden items-center lg:gap-10 justify-between  lg:w-[1378px] m-auto py-4'>
           <Button variant="outlined" label="Call-987 654 321" />
-          <Link to="/sdas">
+          <Link to="/">
             <img src={tasteat} alt="logo" className=']' />
           </Link>
           <div className='flex items-center gap-5'>
@@ -79,7 +79,7 @@ const Header = ({ error }: any) => {
         </div>
 
         <div className='lg:hidden flex justify-center items-center'>
-          <Link to="/sdas">
+          <Link to="/">
             <img src={tasteat} alt="logo" className='scale-[0.9]' />
           </Link>
         </div>
